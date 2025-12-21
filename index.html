@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal-Board</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Remix Icon Link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav id="nav">
+      <h1 id="logo">Meal Board</h1>
+      <ul id="nav-link">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#categories-container">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <input id="search-bar" type="text" placeholder="Search Meals" />
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero">
+        <div id="hero-title">
+          <h1>Welcome to Meal Board</h1>
+          <p>"your one stop corner to enjoy a faboulus meal"</p>
+        </div>
+
+        <div id="hero-img">
+          <img src="./assets/hero-image2.png" alt="" />
+        </div>
+      </section>
+
+      <!-- About -->
+      <div id="" style="background-color: #efb301">
+        <h1 style="padding: 0 5%; text-align: center; margin-bottom: 2%">
+          About Us
+        </h1>
+        <div id="about">
+          <div id="about-img">
+            <img
+              src="https://imgs.search.brave.com/BGMQBFeXUmjbR7qKDLjtd1Pi0a_WZlaaY-Arb4WCFbQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzkv/ODk3LzAxNi9zbWFs/bC9haS1nZW5lcmF0/ZWQtaGFwcHktc21p/bGluZy1jaGVmLXMt/dGVhbS1pbi1oaXMt/a2l0Y2hlbi1waG90/by5qcGc"
+              alt=""
+            />
+          </div>
+          <div id="about-description">
+            <h1>Where Taste Meets Tradition</h1>
+            <p>
+              At [Restaurant Name], we believe that every meal should be an
+              experience. Founded in [Year], our mission is to bring together
+              fresh, locally-sourced ingredients and authentic flavors to create
+              dishes that delight every palate.
+              <br /><br />
+              Whether you're here for a casual lunch, a cozy dinner, or a
+              special celebration, our warm and inviting atmosphere ensures that
+              every visit feels like home.
+              <br /><br />
+              Our team of passionate chefs and staff are dedicated to crafting
+              meals that are not just delicious but memorable. From family
+              recipes passed down through generations to innovative seasonal
+              specials, we put love and care into every plate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu -->
+      <section id="categories-container">
+        <h1>what do you want to eat today ?</h1>
+        <div id="categories"></div>
+      </section>
+
+      <!-- Meals -->
+      <section id="meals"></section>
+
+      <!-- Contact -->
+      <div id="contact">
+        <h1>We would love to serve you</h1>
+        <div style="display: flex; gap: 20px">
+          <iframe
+            src="https://www.google.com/maps/place/BFC+(Best+Fried+Chicken)/@23.7738059,90.4063763,13z/data=!4m10!1m2!2m1!1sbfc!3m6!1s0x3755c700401bf979:0xa9451110ee3aab5d!8m2!3d23.774673!4d90.4256381!15sCgNiZmMiA4gBAVoFIgNiZmOSARJjaGlja2VuX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11wqwz0tt6?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+            frameborder="0"
+            width="50%"
+          ></iframe>
+
+          <div style="width: 50%">
+            <h1>Follow us on</h1>
+            <ul style="font-size: 2rem; list-style: none">
+              <li><i class="ri-facebook-box-fill"></i></li>
+              <li><i class="ri-instagram-fill"></i></li>
+              <li><i class="ri-twitter-fill"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/fucntional.js"></script>
+  </body>
+</html>
