@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal-Board</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets/hero-image2-CPC9z2_p.png"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Remix Icon Link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-mD2GRWq6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dz-l1pmO.css">
+  </head>
+
+  <body>
+    <nav id="nav">
+      <h1 id="logo">Meal Board</h1>
+      <ul id="nav-link">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a
+            href="#about"
+            onclick="document.getElementById('about').style.display='default'"
+            >About</a
+          >
+        </li>
+        <li><a href="#categories-container">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <input id="search-bar" type="text" placeholder="Search Meals" />
+    </nav>
+
+    <main>
+      <div id="details-card"></div>
+
+      <!-- Hero Section -->
+      <section id="hero">
+        <div id="hero-title">
+          <h1>
+            Welcome to Meal -<br />
+            Board
+          </h1>
+          <p>"your one stop corner to enjoy a faboulus meal"</p>
+        </div>
+
+        <div id="hero-img">
+          <img id="img1" src="/assets/banner-img-FjEwnV1P.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section id="categories-container">
+        <h1>what do you want to eat today ?</h1>
+        <div id="categories"></div>
+      </section>
+
+      <!-- Meals -->
+      <section id="">
+        <button id="back-btn"><i class="ri-arrow-left-line"></i></button>
+        <div id="meals"></div>
+      </section>
+
+      <!-- About -->
+
+      <div id="about">
+        <div id="about-img">
+          <img
+            src="https://imgs.search.brave.com/par2j8jLaSBJYaIU0R1Mon6k6h4zQLZMxV0Nt5ap9Cg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzkv/ODk3LzQ0NS9zbWFs/bC9haS1nZW5lcmF0/ZWQtdGVhbS1vZi1j/aGVmLWluLXRoZS1r/aXRjaGVuLXNtaWxl/LXBob3RvLmpwZw"
+            alt=""
+          />
+        </div>
+
+        <div id="about-info">
+          <h1>About us</h1>
+          <div id="about-description">
+            <h1>"Where Taste Meets Tradition"</h1>
+            <p>
+              At Meal-Board, we believe that every meal should be an experience.
+              Founded in 2025, our mission is to bring together fresh,
+              locally-sourced ingredients and authentic flavors to create dishes
+              that delight every palate.
+              <br /><br />
+              Whether you're here for a casual lunch, a cozy dinner, or a
+              special celebration, our warm and inviting atmosphere ensures that
+              every visit feels like home.
+              <br /><br />
+              Our team of passionate chefs and staff are dedicated to crafting
+              meals that are not just delicious but memorable. From family
+              recipes passed down through generations to innovative seasonal
+              specials, we put love and care into every plate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+
+      <div
+        id="contact"
+        style="display: flex; justify-content: space-between; gap: 20px"
+      >
+        <div
+          style="
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          "
+        >
+          <h1>We would love to serve you</h1>
+          <p>meal-board.com</p>
+        </div>
+
+        <div
+          style="
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          "
+        >
+          <h1>Follow us on</h1>
+          <ul
+            id="social"
+            style="
+              font-size: 2rem;
+              list-style: none;
+              text-decoration: none;
+              color: #fff;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <li>
+              <a href="https://facebook.com"
+                ><i class="ri-facebook-box-fill"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com"
+                ><i class="ri-instagram-fill"> </i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com"> <i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+  </body>
+</html>
