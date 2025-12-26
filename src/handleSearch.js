@@ -1,4 +1,5 @@
-import { fetchApi, showMeals } from "./fucntional.js";
+import { fetchApi } from "../utils/fetchApi.js";
+import { showMeals } from "../utils/showMeals.js";
 
 const getSearchVal = () => {
   const searchVal = document.getElementById("search-bar").value;
