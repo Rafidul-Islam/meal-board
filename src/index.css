@@ -71,9 +71,7 @@ body {
 
 #hero-title p {
   font-size: 1.5rem;
-  color: red;
-  font-weight: bold;
-  text-shadow: 2px 0px 0px #fff;
+  font-weight: 500;
 }
 
 #hero-img {
@@ -104,6 +102,10 @@ body {
 #categories .card img,
 #categories .card .btn {
   display: none;
+}
+
+#categories .card:hover {
+  cursor: pointer;
 }
 
 /* ======================================
@@ -142,6 +144,10 @@ body {
   background-color: rgb(162, 7, 33);
   color: white;
   font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 /* ======================================

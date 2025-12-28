@@ -14,7 +14,7 @@ const searchByVal = (val) => {
 };
 
 document.getElementById("search-bar").addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
+  if (e.key === "Enter" && e.target.value !== "") {
     document.getElementById("hero").style.display = "none";
     document.getElementById("categories-container").style.display = "none";
     document.getElementById("about").style.display = "none";
