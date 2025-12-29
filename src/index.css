@@ -286,9 +286,12 @@ body {
 #closePopUp {
   border: none;
   border-radius: 5px;
-  padding: 5px;
-
+  padding: 10px;
   background-color: rgb(162, 7, 33);
   color: white;
   font-weight: bold;
+}
+
+#closePopUp:hover {
+  cursor: pointer;
 }

@@ -16,7 +16,7 @@ export const createMealsDescriptionCard = (meal) => {
   }
 
   detailsCard.innerHTML = `
-        <button id="closePopUp">Close</button>
+        <button id="closePopUp"><i class="ri-arrow-left-double-fill"></i></button>
 
         <div id="meal-description">
           <div style="padding: 5px; width: 70%">
